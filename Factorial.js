@@ -7,9 +7,9 @@
 
 // ------------------------------------------ My answer after googling.
 function myFindFactorialRecursive(number) {
-	let answer;
+	let answer = 1;
 	if (number === 1) {
-		return (answer = 1);
+		return answer;
 	} else {
 		return number * myFindFactorialRecursive(number - 1);
 	}
@@ -28,7 +28,7 @@ function myFindFactorialIterative(number) {
 }
 
 // ------------------------------------------ Solution: Recursive
-function findFactorialIterative(number) {
+function findFactorialRecursive(number) {
 	if (number === 2) {
 		// or, if (number < 2), return 1;
 		return 2;
