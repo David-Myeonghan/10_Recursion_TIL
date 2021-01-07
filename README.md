@@ -46,3 +46,5 @@
     3. Get closer and closer and return when needed. Usually you have 2 returns, for the base case and the recursive case.
 
     - The function simply gets closer and closer to the base case, and once it gets to the base case, it finally returns and pops functions off the stack.
+
+    ## When you wanna make a recursive function: Figure out first what the simplest case is(when to stop).
