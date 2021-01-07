@@ -6,20 +6,12 @@
 // ...
 
 function findFactorialRecursive(number) {
-	let answer = number;
-	let counter = number - 1;
-
-	// base case : when the number is 1.
-	// recursive case: when the number is not 1.
-
-	answer = answer * counter;
-
-	if (counter !== 1) {
-		// console.log(answer);
-		return findFactorialRecursive(number - 1);
+	let answer;
+	if (number === 1) {
+		return (answer = 1);
+	} else {
+		return number * findFactorialRecursive(number - 1);
 	}
-
-	return console.log(answer);
 }
 
 function findFactorialIterative(number) {
@@ -34,4 +26,4 @@ function findFactorialIterative(number) {
 }
 
 // findFactorialIterative(4);
-findFactorialRecursive(4);
+console.log(findFactorialRecursive(5));
