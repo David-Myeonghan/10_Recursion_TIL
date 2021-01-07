@@ -6,5 +6,6 @@ function inception() {
 	}
 	counter++;
 
-	return inception(); // without return keyword, the inception function will return 'unedfined'.
+	return inception();
+	// without return keyword, the inception function will return 'unedfined'.
 }

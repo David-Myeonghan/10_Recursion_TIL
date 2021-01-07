@@ -11,12 +11,12 @@ function myFindFactorialRecursive(number) {
 	if (number === 1) {
 		return (answer = 1);
 	} else {
-		return number * findFactorialRecursive(number - 1);
+		return number * myFindFactorialRecursive(number - 1);
 	}
 }
 
 // ------------------------------------------ My answer with: while loop
-function MyFindFactorialIterative(number) {
+function myFindFactorialIterative(number) {
 	let answer = number;
 
 	while (number > 1) {
