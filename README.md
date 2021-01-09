@@ -48,3 +48,30 @@
     - The function simply gets closer and closer to the base case, and once it gets to the base case, it finally returns and pops functions off the stack.
 
     ## When you wanna make a recursive function: Figure out first what the simplest case is(when to stop).
+    ## Figure out the smallest order that makes to reach recursive.
+
+## Why would you ever use recursive?
+
+    - Depends on the situation.
+    - Anything you do with a recursion CAN be done iteratively.
+    - Recursive is not the best solution.
+
+    - Pros: DRY, Reaability
+    - Cons: Large Stack (in time complexity)
+
+    - Recursion: when you don't know how deep they are where you don't know how many loops to go through.
+    - such as Tree data structure, doing traversal.
+    - sorting, and BFS + DFS (searching)
+
+## Every time you are using a tree or converting somthing into a tree, Consider recursion.
+
+    1. (Is the problem that can be) Divided into a number of subproblems that are smaller instances of the same problem. (like fibonacci, and factorial)
+    2. Each instance of the subproblem is identical in nature.
+    3. The solutions of each subproblem can be combines to solve the problem at hand.
+
+    Divide and Conquer using Recursion.
+
+## Tail Call Optimisation
+
+    - "https://2ality.com/2015/06/tail-call-optimization.html"
+    - Is it in a tail position(the last action in a function)? If so, such a call can be done with zero stack growth.

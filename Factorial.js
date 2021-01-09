@@ -59,5 +59,5 @@ function findFactorialIterative(number) {
 } // O(n)
 
 // findFactorialIterative(4);
-console.log(findFactorialIterativeFor(5));
+console.log(myFindFactorialRecursive(5));
 // console.log(findFactorialRecursive(5));
