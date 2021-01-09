@@ -39,7 +39,7 @@ function fibonacciRecursive(n) {
 	}
 }
 
-// ------------------------------------------- Solution: more readable, but not ideal solution in terms of time complexity.
+// ------------------------------------------- Solution: more readable, but not ideal solution in time complexity.
 function fibonacciRecursiveSolution(n) {
 	if (n < 2) {
 		return n;

@@ -71,7 +71,13 @@
 
     Divide and Conquer using Recursion.
 
+    Recursion and Time complexity are not friends.
+
 ## Tail Call Optimisation
 
     - "https://2ality.com/2015/06/tail-call-optimization.html"
     - Is it in a tail position(the last action in a function)? If so, such a call can be done with zero stack growth.
+
+## Recursion Real Example
+
+    - "https://stackoverflow.com/questions/105838/real-world-examples-of-recursion"
